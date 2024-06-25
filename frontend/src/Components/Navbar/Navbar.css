@@ -16,7 +16,7 @@
     gap: 10px;
 }
 .nav-logo img{
-    width: 120px;
+    width: 150px;
 }
 .nav-logo p{
     color: #171717;
@@ -39,14 +39,26 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
-    color: yellow;
 }
 .nav-menu hr{
     border: none;
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: #f1666f;
+}
+input[type='text']{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
 }
 .nav-login-cart{
     display: flex;
@@ -64,6 +76,11 @@
     font-weight: 500;
     background: white;
     cursor: pointer;
+}
+.nav-login-cart button:hover{
+    background-color: #f1666f;
+    color: white;
+    border: none;
 }
 .nav-login-cart button:active{
     background: #f3f3f3;

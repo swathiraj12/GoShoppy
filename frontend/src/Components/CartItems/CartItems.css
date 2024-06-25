@@ -53,13 +53,16 @@
 .cartitems-total button{
     width: 262px;
     height: 58px;
-    outline: none;
-    border: none;
-    background: #ff5a5a;
+    border: solid 1px #f1666f;
+    background: #f1666f;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+.cartitems-total button:hover{
+    background: white;
+    color: #f1666f;
 }
 .cartitems-promocode{
     flex: 1;
@@ -91,6 +94,12 @@
     background: black;
     color: white;
     cursor: pointer;
+    transition: 0.8s;
+}
+.cartitems-promobox button:hover{
+    background-color: #f1666f;
+    color: white;
+    border: none;
 }
 @media (max-width:1280px){
     .cartitems{

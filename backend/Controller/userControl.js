@@ -70,7 +70,7 @@ const Login = async (req,res) => {
 };
 
 // Middleware to authenticate user
-const FetchUser = async (req,res, next) => {
+const FetchUser = async (req, res, next) => {
     const token = req.header('token');
     console.log('Received token:', token);
 
@@ -92,7 +92,7 @@ const AddToCart = async (req,res) => {
     try {
         console.log('req.existUser:', req.existUser);
 
-        if (!req.existUser || !req.existUser.id) {
+        if (!req.existUser || !req.existUser._id) {
             throw new Error('User ID not found in request');
         }
 

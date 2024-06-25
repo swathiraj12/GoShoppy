@@ -8,10 +8,10 @@
     background: white;
 }
 .nav-logo{
-    width: 200px;
+    width: 150px;
 }
 .nav-profile{
-    width: 75px;
+    width: 100px;
 }
 
 @media (max-width:800px) {
