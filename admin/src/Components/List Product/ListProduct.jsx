@@ -9,7 +9,7 @@ const ListProduct = () => {
 
   const fetchInfo = async () => {
     try {
-      const response = await axios.get('http://localhost:4000/getallproduct');
+      const response = await axios.get('https://goshoppy-backend.onrender.com/getallproduct');
       console.log('Data fetched successfully:', response.data);
       setall_product(response.data.getProduct);
     } catch (error) {
@@ -24,7 +24,7 @@ const ListProduct = () => {
   console.log('All products:', all_product);
 
   const remove_product = async (_id) => {
-    await axios.delete(`http://localhost:4000/removeproduct/${_id}`);
+    await axios.delete(`https://goshoppy-backend.onrender.com/removeproduct/${_id}`);
     fetchInfo();
   }
 
