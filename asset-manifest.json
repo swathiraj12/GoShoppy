@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/GoShoppy/frontend/static/css/main.968d83b3.css",
+    "main.js": "/GoShoppy/frontend/static/js/main.5f448e0e.js",
+    "static/media/frontimg.png": "/GoShoppy/frontend/static/media/frontimg.1e284c31008a5c0193cb.png",
+    "static/media/banner_mens.png": "/GoShoppy/frontend/static/media/banner_mens.747f99ccae7890744df1.png",
+    "static/media/banner_women.png": "/GoShoppy/frontend/static/media/banner_women.fa5f0aa5c2f6d3b25ff6.png",
+    "static/media/banner_kids.png": "/GoShoppy/frontend/static/media/banner_kids.bb8111c7be8ce5de268e.png",
+    "static/media/exclusive_image.png": "/GoShoppy/frontend/static/media/exclusive_image.e8118f2149d9cb916980.png",
+    "static/media/product_4.png": "/GoShoppy/frontend/static/media/product_4.ea0420ca9cec08d6df05.png",
+    "static/media/product_2.png": "/GoShoppy/frontend/static/media/product_2.d4e74f367160ec10fb34.png",
+    "static/media/product_1.png": "/GoShoppy/frontend/static/media/product_1.5a757396ee7ff5dd91c1.png",
+    "static/media/product_3.png": "/GoShoppy/frontend/static/media/product_3.be48863df18b272b8f59.png",
+    "static/media/logo.png": "/GoShoppy/frontend/static/media/logo.fe69f320a4a1e11bb46a.png",
+    "static/media/hand_icon.png": "/GoShoppy/frontend/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "index.html": "/GoShoppy/frontend/index.html",
+    "main.968d83b3.css.map": "/GoShoppy/frontend/static/css/main.968d83b3.css.map",
+    "main.5f448e0e.js.map": "/GoShoppy/frontend/static/js/main.5f448e0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.968d83b3.css",
+    "static/js/main.5f448e0e.js"
+  ]
+}
