@@ -31,7 +31,7 @@ const AddProduct = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/upload",
+        "https://goshoppy-backend.onrender.com/upload",
         formData
       );
       responseData = response.data;
@@ -41,7 +41,7 @@ const AddProduct = () => {
         console.log(product);
 
         const addProductResponse = await axios.post(
-          "http://localhost:4000/createproduct",
+          "https://goshoppy-backend.onrender.com/createproduct",
           product,
           {
             headers: {
