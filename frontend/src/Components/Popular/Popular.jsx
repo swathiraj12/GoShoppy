@@ -11,7 +11,7 @@ const Popular = () => {
   useEffect(() => {
     const fetchPopularProducts = async () => {
       try {
-        const response = await axios.get('http://localhost:4000/popularinwomen');
+        const response = await axios.get('https://goshoppy-backend.onrender.com/popularinwomen');
         // console.log('API Response:', response); 
 
         if (Array.isArray(response.data.popularInWomenProduct)) {

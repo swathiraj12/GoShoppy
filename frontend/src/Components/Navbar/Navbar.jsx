@@ -26,7 +26,7 @@ const Navbar = () => {
   const FilterSearch = async () => {
     try {
       const dummySearch = await axios.get(
-        "http://localhost:4000/getallproduct"
+        "https://goshoppy-backend.onrender.com/getallproduct"
       );
       const viewData = dummySearch.data;
       console.log("Fetched Data:", viewData);

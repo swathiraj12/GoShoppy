@@ -14,7 +14,7 @@ const LoginSignup = () => {
     console.log('Login Function Executed', formData);
     
     try {
-        const result = await axios.post("http://localhost:4000/login", formData);
+        const result = await axios.post("https://goshoppy-backend.onrender.com/login", formData);
         console.log('Login Response:', result.data);
 
         if (result.data.success) {
@@ -34,7 +34,7 @@ const LoginSignup = () => {
     console.log('Signup Function Executed', formData);
 
     try {
-      const result = await axios.post("http://localhost:4000/signup", formData);
+      const result = await axios.post("https://goshoppy-backend.onrender.com/signup", formData);
       console.log('Signup Response:', result.data);
       alert('Signup successful');
       // localStorage.setItem('token', result.data.token);

@@ -9,7 +9,7 @@ const NewCollections = () => {
   useEffect(() => {
     const fetchNewCollection = async () => {
       try {
-        const response = await axios.get('http://localhost:4000/newcollection');
+        const response = await axios.get('https://goshoppy-backend.onrender.com/newcollection');
         // Ensure the data is an array
         if (Array.isArray(response.data.newCollectionData)) {
           setnew_collection(response.data.newCollectionData);

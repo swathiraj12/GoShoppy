@@ -18,7 +18,7 @@ const ShopContextProvider = (props) => {
     useEffect(() => {
         const fetchAllProducts = async () => {
           try {
-            const response = await axios.get('http://localhost:4000/getallproduct');
+            const response = await axios.get('https://goshoppy-backend.onrender.com/getallproduct');
             // Ensure the data is an array
             if (Array.isArray(response.data.getProduct)) {
                 setall_product(response.data.getProduct);
@@ -37,7 +37,7 @@ const ShopContextProvider = (props) => {
     const addToCart = (itemId) => {
         setcartItems((prev) => ({ ...prev, [itemId]: (prev[itemId] || 0) + 1 }));
         if(localStorage.getItem('token')) {
-            axios.post('http://localhost:4000/addtocart',
+            axios.post('https://goshoppy-backend.onrender.com/addtocart',
             {
                 itemId:itemId
             },
@@ -60,7 +60,7 @@ const ShopContextProvider = (props) => {
     const removeFromCart = (itemId) => {
         setcartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }))
         if(localStorage.getItem('token')) {
-            axios.post('http://localhost:4000/removefromcart',
+            axios.post('https://goshoppy-backend.onrender.com/removefromcart',
             {
                 itemId:itemId
             },
