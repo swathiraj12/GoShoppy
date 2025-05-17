@@ -33,7 +33,7 @@ app.post("/upload", upload.single('product'), (req, res) => {
     })
 })
 
-mongoose.connect("mongodb+srv://swathijcvl:<db_password>@cluster0.eutqbuo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://swathijcvl:Ibornon12th@cluster0.eutqbuo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => {
         console.log(`Database Connected PORT ${port}`);
         app.listen(port);
