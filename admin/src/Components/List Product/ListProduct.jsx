@@ -32,12 +32,12 @@ const ListProduct = () => {
     <div className='listproduct'>
       <h1>All Products List</h1>
       <div className="listproduct-format-main">
-        <p>Products</p>
-        <p>Title</p>
-        <p>Old Price</p>
-        <p>New Price</p>
-        <p>Category</p>
-        <p>Remove</p>
+        <p className='listproduct-format-main-header' >Products</p>
+        <p className='listproduct-format-main-header'>Title</p>
+        <p className='listproduct-format-main-header'>Old Price</p>
+        <p className='listproduct-format-main-header'>New Price</p>
+        <p className='listproduct-format-main-header'>Category</p>
+        <p className='listproduct-format-main-header'>Remove</p>
       </div>
       <div className="listproduct-allproducts">
         <hr />

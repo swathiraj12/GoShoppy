@@ -11,13 +11,16 @@
 }
 .listproduct-format-main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
     gap: 10px;
     width: 100%;
     padding: 20px 0;
     color: #454545;
     font-size: 15px;
     font-weight: 600;
+}
+.listproduct-format-main-header{
+    color: #f1666f;
 }
 .listproduct-format{
     align-items: center;

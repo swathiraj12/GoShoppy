@@ -18,11 +18,6 @@
 .nav-logo img{
     width: 150px;
 }
-.nav-logo p{
-    color: #171717;
-    font-size: 38px;
-    font-weight: 600;
-}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -48,18 +43,51 @@
     background: #f1666f;
 }
 input[type='text']{
+    flex: 1;
+    position: relative;
     width: 180px;
     height: 40px;
     background-color: transparent;
     outline: none;
     border: 1px solid #7a7a7a;
-    border-radius: 75px;
     color: #515151;
     font-size: 20px;
     cursor: pointer;
     padding: 5px;
     text-align: center;
+    align-items: center;
+    gap: 10px;
 }
+.search-button{
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.search-button:hover{
+    background-color: #f1666f;
+    color: white;
+    border: none;
+}
+.search-input-data {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .search-input-data div:hover {
+    background-color: #f1f1f1;
+  }
 .nav-login-cart{
     display: flex;
     align-items: center;
